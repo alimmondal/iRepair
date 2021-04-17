@@ -1,0 +1,38 @@
+.dGrid{
+    display:flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.social-footer{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.footer-area{
+    background-image: url(../../../image/footer-bg.png);
+    background-size: cover;
+}
+.footer-area .logo{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-area li{
+    font-weight: bold;
+}
+.footer-area li:hover{
+    color:red;
+}
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6ACECE;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #6ACECE ;
+    color:white;
+}
