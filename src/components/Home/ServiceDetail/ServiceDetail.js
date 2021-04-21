@@ -17,8 +17,8 @@ const ServiceDetail = ({service, date}) => {
     }
 
     return (
-        <div className="col-md-4 text-center">
-            <img style={{height: '50px'}} src={service.imageURL} alt="" />
+        <div className="col-md-4 text-center pb-5">
+            <img style={{height: '80px'}} src={service.imageURL} alt="" />
             <h5 className="mt-3 mb-3">{service.name}</h5>
             <p>${service.price}</p>
             <p className="text-secondary">{service.description}</p>

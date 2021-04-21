@@ -20,7 +20,7 @@ const AddServices = () => {
       description: data.description,
       imageURL: imageURL,
     };
-    const url = `http://localhost:5000/addServices`;
+    const url = `https://morning-island-75682.herokuapp.com/addServices`;
     console.log(serviceData);
 
     fetch(url, {

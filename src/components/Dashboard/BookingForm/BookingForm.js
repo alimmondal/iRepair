@@ -19,7 +19,7 @@ const BookingForm = () => {
         // data.date = date;
         data.created = new Date();
 
-        fetch('http://localhost:5000/addAppointments', {
+        fetch('https://morning-island-75682.herokuapp.com/addAppointments', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({data})
