@@ -38,8 +38,6 @@ const AddAdmin = () => {
 
     return (
         <section className="container-fluid row">
-            
-            
             <div className="col-md-10 p-4 pr-5" style={{ position: "absolute", right: 0, backgroundColor: "#F4FDFB" }}>
                 <h5 className="text-brand">Add an Admin</h5>
                 <form onSubmit={handleSubmit}>
@@ -58,7 +56,6 @@ const AddAdmin = () => {
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
             </div>
-            
         </section>
     );
 };

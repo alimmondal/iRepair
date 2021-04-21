@@ -7,8 +7,6 @@ import Navbar from '../../Shared/Navbar/Navbar';
 import ServiceList from '../../ServiceList/ServiceList';
 import Sidebar from '../Sidebar/Sidebar';
 
-
-
 const Dashboard = () => {
     return (
         <div className="">

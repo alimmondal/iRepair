@@ -2,11 +2,6 @@ import React from 'react';
 import AddAdmin from '../AddAdmin/AddAdmin';
 import Sidebar from '../Dashboard/Sidebar/Sidebar';
 import Navbar from '../Shared/Navbar/Navbar';
-// import Footer from '../../Home/Footer/Footer';
-// import Footer from '../../Home/Footer/Footer';
-// import Navbar from '../../Shared/Navbar/Navbar';
-// import Sidebar from '../Sidebar/Sidebar';
-// import AddAdmin from '../../AddAdmin/AddAdmin';
 
 
 const containerStyle ={ 

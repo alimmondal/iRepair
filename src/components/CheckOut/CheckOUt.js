@@ -27,7 +27,6 @@ const CheckOUt = () => {
                     </div>
                 </div>
             </div> 
-            
         </div>
         </div>
     );

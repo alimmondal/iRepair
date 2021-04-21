@@ -26,9 +26,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link className="nav-link ms-5 text-primary" to="/AdminPage">Admin</Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <Link className="nav-link ms-5 text-primary" to="/addAdmin">Admin</Link>
-                    </li> */}
                     <li className="nav-item">
                         <Link className="nav-link ms-5 text-primary" to="#">Blogs</Link>
                     </li>

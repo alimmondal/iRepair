@@ -45,9 +45,7 @@ const BookingForm = () => {
                 <h2>Book</h2>
              </div>
         <div style={{border:'1px solid purple'}}>
-           
                 <form onSubmit={handleSubmit(onSubmit)} className="p-5" >
-                    
                     <input name="name" defaultValue="name" {...register("name")} className="form-control" />
                      <br/>
                     <input name="email" defaultValue="email" {...register("email")} className="form-control" />
@@ -58,11 +56,8 @@ const BookingForm = () => {
                     <br/>
                     {/* <Link to="/bookingList"> */}
                         <button type="submit" className="btn-primary ms-5 px-5">Pay and see your Booking list</button>
-                    {/* </Link> */}
-                    
+                    {/* </Link> */}   
                 </form>
-                
-           
         </div>
         </div>
     );
