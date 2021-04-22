@@ -49,7 +49,7 @@ const Sidebar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Review" className="text-white" >
+                        <Link to="/addReview" className="text-white" >
                             <FontAwesomeIcon icon={faUserPlus} /> <span>Review</span>
                         </Link>
                     </li>

@@ -12,6 +12,7 @@ import CheckOUt from "./components/CheckOut/CheckOUt";
 import AdminPage from "./components/AdminPage/AdminPage";
 import OrderList from "./components/OrderList/OrderList";
 import Book from "./components/Book/Book";
+import AddReview from "./components/Home/AddReview/AddReview";
 
 export const UserContext = createContext();
 
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route path="/addServices">
             <AddServices></AddServices>
+          </Route>
+          <Route path="/addReview">
+            <AddReview></AddReview>
           </Route>
           <PrivateRoute path="/CheckOUt/:_id">
             <CheckOUt></CheckOUt>
